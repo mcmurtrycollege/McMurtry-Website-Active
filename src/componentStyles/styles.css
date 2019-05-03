@@ -1,0 +1,35 @@
+/*
+ * This is just a basic style sheet.
+ * Feel free to add more style sheets and/or delete this one.
+ * Please keep all style sheets in the componentStyles folder.
+ */
+
+ /* Default */
+
+ body {
+  margin: 0px;
+  background-color: #DCDFE5;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+
+  transition-duration: .2s;
+ }
+
+ /* Color Theme */
+
+.primary-background {
+  background-color: #422a4C;
+}
+
+.secondary-background {
+ background-color: #B7B8BF;
+}
+
+.tertiary-background {
+  background-color: #2B2F3A;
+}
+
+.dark-font {
+  color: #422a4C;
+}
+

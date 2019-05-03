@@ -1,0 +1,62 @@
+
+/* For the styling of input components */
+
+.buttonPane {
+  text-align: center;
+  padding: .4rem .6rem;
+
+  font-size: .65rem;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+}
+
+.buttonContainer:hover .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+/* Different Button Looks */
+
+/*
+ * clickable1 being the default here.
+ * 
+ * All clickable styles should have 2 to 4 different specifications.
+ * .<classname> for when the clickable element is not hovered over.
+ * .<classname>:hover for when the clickable element is hovered over.
+ * .<classname>:active for when the clickable element is clicked.
+ *
+ * .buttonContainer:hover .parent.<classname>
+ * This being for when a Button's dropdown menu is being hovered over.
+ * This obviously is very optional.
+ */
+
+.clickable1 {
+  color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.clickable1:hover, .buttonContainer:hover .clickable1.parent {
+  color: rgb(129, 0, 189);
+  background-color: rgba(129, 0, 189, .15);
+}
+
+.clickable2 {
+  color: rgb(129, 0, 189);
+  background-color: rgba(129, 0, 189, .05);
+}
+
+.clickable2:hover {
+  color: rgb(129, 0, 189);
+  background-color: rgba(129, 0, 189, .15);
+}
+
+.clickable2:active {
+  color: rgb(129, 0, 189);
+  background-color: white;
+}

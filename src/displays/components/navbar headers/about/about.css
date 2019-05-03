@@ -1,0 +1,16 @@
+@media screen and (min-width: 900px){
+    .about-page {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+.about-subtitle {
+    text-align: center;
+}
+
+.about-text {
+    padding: 20px;
+    background-color: #BFBFCC;
+    color: #2B2F3A;
+}

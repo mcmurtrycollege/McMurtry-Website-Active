@@ -1,0 +1,29 @@
+@media screen and (min-width: 900px){
+    .associates-page {
+        margin-top: 8%;
+    }
+}
+
+.associates-page {
+    margin-bottom: 5%;
+}
+
+.associate-card {
+    padding: 2%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    color: #2B2F3A;
+    background-color: #BFBFCC;
+    border: 1px solid #BFBFCC;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.associate-card:hover {
+    border-color: #2B2F3A;
+}
+
+.associate-display {
+    text-align: center;
+}

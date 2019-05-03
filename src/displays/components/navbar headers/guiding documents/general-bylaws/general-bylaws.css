@@ -1,0 +1,29 @@
+@media screen and (min-width: 700px){
+    .wide-general-bylaws-pdf {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    .narrow-general-bylaws-pdf {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-general-bylaws-pdf {
+        display: none;
+    }
+    .narrow-general-bylaws-pdf {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.general-bylaws-page {
+    margin-top: 8%;
+}

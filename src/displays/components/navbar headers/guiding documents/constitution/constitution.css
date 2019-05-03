@@ -1,0 +1,29 @@
+@media screen and (min-width: 700px){
+    .wide-constitution-pdf {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    .narrow-constitution-pdf {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .wide-constitution-pdf {
+        display: none;
+    }
+    .narrow-constitution-pdf {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        display: flex;
+    }
+}
+
+.constitution-page {
+    margin-top: 8%;
+}
