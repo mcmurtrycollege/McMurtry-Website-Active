@@ -2,7 +2,7 @@
 
 Navigate into the folder you want the repository cloned into.
 
-Run:
+Run the following command to clone the repository locally:
 ### `git clone https://https://github.com/mcmurtrycollege/McMurtry-Website-Active`
 
 Then to run the website in development mode locally on your computer run:
@@ -10,7 +10,6 @@ Then to run the website in development mode locally on your computer run:
 ### `npm run start` 
 
 From within the directory for the repository.
-
 
 ## Available Scripts
 
@@ -39,6 +38,10 @@ Implicitly calls `npm run build` and then stages and commits the neccessary buil
 ## Deployment
 
 This website is hosted on github pages and pulls from the gh-pages branch of the repository. The source code for the website is in the master branch. To make changes/deploy the website running the command `npm run deploy` will create a production build of the website and push it to the gh-pages branch, after a couple of minutes these changes should be reflected in the website itself. 
+
+To deploy the website run:
+
+### `npm run deploy`
 
 To update the source code following a deployment run the following commands:
 
