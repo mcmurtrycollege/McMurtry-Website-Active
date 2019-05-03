@@ -3,7 +3,7 @@
 Navigate into the folder you want the repository cloned into.
 
 Run:
-### `git clone https://github.com/RiceDatathon/RiceDatathon.github.io`
+### `git clone https://https://github.com/mcmurtrycollege/McMurtry-Website-Active`
 
 Then to run the website in development mode locally on your computer run:
 
