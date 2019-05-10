@@ -8,15 +8,15 @@
 }
 
 .contact-card {
-    background-color: #BFBFCC;
-    border: 2px solid #BFBFCC;
+    background-color: none;
+    border: 1px solid #2B2F3A;
     padding: 20px;
     height: 160px;
-    transition: border-color 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .contact-card:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .contacts-position {
