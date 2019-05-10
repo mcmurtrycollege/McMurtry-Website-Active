@@ -3,7 +3,25 @@ import { Box, Flex } from 'rebass';
 import Title from '../../../title';
 import './mis.css';
 import { content, hours, personnel } from './mis.json';
-import mis_rules from '../../../../static/mis_safety.pdf';
+import mis_safety from '../../../../static/mis_safety.pdf';
+
+const MISLinks = [
+    {
+        text: "Safety Guidlines",
+        icon: "https://icon.now.sh/security",
+        link: mis_safety
+    },
+    {
+        text: "Equipment Information",
+        icon: "https://icon.now.sh/skyliner",
+        link: "https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit"
+    },
+    {
+        text: "Email us at",
+        icon: "https://icon.now.sh/email",
+        link: "mailto:mcminnovationspace@gmail.com"
+    }
+]
 
 const McmInovationSpace = () => (
     <div className='mis-page'>
@@ -16,28 +34,21 @@ const McmInovationSpace = () => (
             }
         </Box>
         <Flex flexWrap='wrap' justifyContent='center' flexDirection='row'>
-            <Box width={[0.9, 0.28]} className='mis-info' style={{margin: '2%'}}>
-                <a href={mis_rules} style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
-                    <div>
-                        <h2 className='mis-link'>Safety Guidlines <img src="https://icon.now.sh/arrow/2B2F3A/18" alt="" /></h2>
-                    </div>
-                </a>
-            </Box>
-            <Box width={[0.9, 0.28]} className='mis-info' style={{margin: '2%'}}>
-                <a href='https://docs.google.com/spreadsheets/d/18Lu5pL6v0oYOnZQu4kYPGuUyiMvAfOHZXBH39udHVXI/edit' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
-                    <div>
-                        <h2 className='mis-link'>Equipment Information <img src="https://icon.now.sh/arrow/2B2F3A/18" alt="" /></h2>
-                    </div>
-                </a>
-            </Box>
+            {
+                MISLinks.map(({ text, icon, link }) => (
+                    <Box width={250} className='mis-info' style={{ margin: '2%' }}>
+                        <a href={link} style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
+                            <div>
+                                <img src={`${icon}//2B2F3A/90`} alt='' />
+                                <h2 className='mis-link'>{text}
+                                {icon === "https://icon.now.sh/email" ? 
+                                (<p style={{fontSize: '0.5em'}}>mcminnovationspace@gmail.com</p>) : (undefined)}</h2>
+                            </div>
+                        </a>
+                    </Box>
+                ))
+            }
         </Flex>
-        <Box width={[0.9, 0.28]} className='mis-email-link' style={{marginLeft: 'auto', marginRight: 'auto', marginTop: '4%', marginBottom: '4%'}}>
-            <a href='mailto:mcminnovationspace@gmail.com' style={{ textDecoration: 'none' }} rel="noopener noreferrer">
-                <div>
-                    <h2 className='mis-link' style={{fontSize: '1em'}}>Email Us at mcminnovationspace@gmail.com</h2>
-                </div>
-            </a>
-        </Box>
         <Box width={[1, 0.7]} pb={20} ml='auto' mr='auto' className='schedule-box'>
             <Box width={[0.4, 0.25]} className='subtitle' ml='auto' mr='auto'>
                 <h2>Hours</h2>

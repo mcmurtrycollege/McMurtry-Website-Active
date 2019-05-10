@@ -94,28 +94,12 @@ const navbar_items = [
         to: "/mis/"
       },
       {
+        subheader: "Documents",
+        to: "/documents/"
+      },
+      {
         subheader: "McMurtry Resources",
         to: "/mcmresources/"
-      },
-      {
-        subheader: "Constitution",
-        to: '/constitution/'
-      },
-      {
-        subheader: "General Bylaws",
-        to: '/generalbylaws/'
-      },
-      {
-        subheader: "Housing Bylaws",
-        to: '/housingbylaws/'
-      },
-      {
-        subheader: "Parking Bylaws",
-        to: '/parkingbylaws/'
-      },
-      {
-        subheader: "Tax-Exempt Form",
-        to: '/taxexempt'
       },
       {
         subheader: "Work Orders",

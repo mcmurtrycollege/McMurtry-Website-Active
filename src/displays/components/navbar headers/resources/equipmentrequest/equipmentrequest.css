@@ -1,18 +1,19 @@
 .equipment-request-page {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .tech-request {
-    border: 2px solid #422a4C;
-    color: #422a4C;
+    border: 1px solid #2B2F3A;
+    color: #2B2F3A;
     text-align: center;
 }
 
 .tech-request-link {
-    color: #422a4C;
+    color: #2B2F3A;
     transition: color 0.3s ease-in-out;
 }
 
 .tech-request-link:hover {
-    color: #DDCEE5;
+    color: #BFBFCC;
 }

@@ -6,7 +6,7 @@
 .subtitle {
     margin-top: 3%;
     margin-bottom: 2%;
-    border: 2px solid #2B2F3A;
+    border: 1px solid #2B2F3A;
     text-align: center;
     color: #2B2F3A;
 }
@@ -24,7 +24,7 @@
 }
 
 .schedule {
-    border: 2px solid #2B2F3A;
+    border: 1px solid #2B2F3A;
     margin: 1%;
 }
 
@@ -39,26 +39,17 @@
 }
 
 .mis-info {
-    background-color: #BFBFCC;
+    padding: 30px;
+    background-color: none;
+    border: 1px solid #2B2F3A;
+    text-align: center;
     margin: 2%;
-    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .mis-info:hover {
-    transform: scale(1.08);
-}
-
-.mis-email-link {
-    padding: 5px;
     background-color: #BFBFCC;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.mis-email-link:hover {
-    transform: scale(1.08);
+    cursor: pointer;
 }
 
 .mis-link {
@@ -68,7 +59,7 @@
 }
 
 .mis-contact {
-    border: 2px solid #BFBFCC;
+    border: 1px solid #BFBFCC;
     padding: 20px;
     background-color: #BFBFCC;
     height: 250px;
