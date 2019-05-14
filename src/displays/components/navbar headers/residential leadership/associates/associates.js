@@ -21,8 +21,11 @@ class AssociateCard extends React.Component {
         return (
             <Box width={1} onClick={this.handleClick}>
                 <div className='associate-card'>
+                    <Box ml='auto' mr='auto' width={this.props.imageWidth}>
+                        <Image src={this.props.image} alt='' />
+                    </Box>
                     <div className='associate-display'>
-                        <h2 style={{fontWeight: 'normal'}}>{this.props.name}</h2>
+                        <h2 style={{ fontWeight: 'normal' }}>{this.props.name}</h2>
                     </div>
                     <div style={style}>
                         <p><strong>Career/Profession: </strong>{this.props.career}</p>
@@ -43,7 +46,8 @@ const Associates = () => {
         columns[i % 2].push(
             <AssociateCard key={`${associates[i].name}`} name={associates[i].name}
                 career={associates[i].career} bio={associates[i].bio} movie_tv={associates[i].movie_tv}
-                hobbies={associates[i].hobbies} fact={associates[i].fact} />
+                hobbies={associates[i].hobbies} fact={associates[i].fact} image={associates[i].image} 
+                imageWidth={associates[i].imageWidth} />
         )
     }
     return (
@@ -52,7 +56,7 @@ const Associates = () => {
             <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' style={{ marginTop: '3%' }}>
                 {
                     columns.map(column => (
-                        <Flex flexDirection='column' width={[1, 0.4]}>
+                        <Flex flexDirection='column' width={[1, 0.4]} key={`C+${columns.indexOf(column)}`}>
                             {column}
                         </Flex>
                     ))
