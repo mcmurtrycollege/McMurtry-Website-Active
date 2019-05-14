@@ -58,5 +58,12 @@
     background-color: #BFBFCC;
     color: #2B2F3A;
     margin-top: 30px;
-    padding: 5px 30px 5px 30px;
+    /* padding: 5px 30px 5px 30px; */
+    padding:  20px 50px;
+}
+
+.mcteam-name {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8em;
 }

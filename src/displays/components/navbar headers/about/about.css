@@ -7,10 +7,11 @@
 
 .about-subtitle {
     text-align: center;
+    border: 1px solid #2B2F3A;
+    padding: 10px;
 }
 
 .about-text {
     padding: 20px;
-    background-color: #BFBFCC;
     color: #2B2F3A;
 }

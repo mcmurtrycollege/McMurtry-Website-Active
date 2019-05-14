@@ -40,14 +40,6 @@ const associates = [
         fact: "I enjoy low environmental impact home 'systems' and am currently trying to perfect a kind of urban mini farm at our house."
     },
     {
-        name: "Ozge Gurcanli, Simon Fischer-Baum, Masal Baby-Murt",
-        career: "OG & SFB: Department of Psychology, Masal: Unicorn Land",
-        bio: "We both work in Department of Psychology and we teach Psychology and Cognitive Science courses. We lived in McM as RAs for 4 years, students named our child Baby-Murt, and we are so proud of all McM students.",
-        movie_tv: "OG: Marvellous Miss Maisel, SFB: Russian Doll, Masal: Daniel Tiger's Neighborhood",
-        hobbies: "OG: Photography, SFB: Cooking, Masal: Acting, scooting, and drawing",
-        fact: "OG loves tea! A lot. Also sewing. We all love art work with tactile materials."
-    },
-    {
         name: "Emily Houlik-Ritchey",
         career: "English Department, Rice U.",
         bio: "I teach and research the literature of the Middle Ages written in medieval English and Spanish, studying the interaction of these cultural traditions with the wider medieval Mediterranean world. I am originally from Colorado, and my family (including a husband and two spunky kids) travel back there regularly to hike, ski, and see family.",
@@ -86,6 +78,14 @@ const associates = [
         movie_tv: "I don’t like to pick favorites (but maybe Startrek TNG)",
         hobbies: "Making meals, making mischief.",
         fact: "I usually ride my bike to work and have been known to yell at my students who ride theirs without a helemet."
+    },
+    {
+        name: "Ozge Gurcanli, Simon Fischer-Baum, Masal Baby-Murt",
+        career: "OG & SFB: Department of Psychology, Masal: Unicorn Land",
+        bio: "We both work in Department of Psychology and we teach Psychology and Cognitive Science courses. We lived in McM as RAs for 4 years, students named our child Baby-Murt, and we are so proud of all McM students.",
+        movie_tv: "OG: Marvellous Miss Maisel, SFB: Russian Doll, Masal: Daniel Tiger's Neighborhood",
+        hobbies: "OG: Photography, SFB: Cooking, Masal: Acting, scooting, and drawing",
+        fact: "OG loves tea! A lot. Also sewing. We all love art work with tactile materials."
     },
     {
         name: "E. Kate Abad",

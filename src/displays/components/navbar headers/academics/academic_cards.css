@@ -3,15 +3,14 @@
 }
 
 .academic-card-content {
-    border: 1px solid #BFBFCC;
-    background-color: #BFBFCC;
+    border: 1px solid #2B2F3A;
     color: #2B2F3A;
     padding: 15px;
-    transition: border-color 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .academic-card-content:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .academic-position {

@@ -16,22 +16,31 @@
     text-align: left;
 }
 
+.room-question {
+    font-weight: normal;
+    color: #2B2F3A;
+    text-align: center;
+    font-size: 1.8em;
+}
+
 .reservation-email-link {
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #BFBFCC;
-    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #2B2F3A;
+    transition: 0.2s ease-in-out;
 }
 
 .reservation-email-link:hover {
-    transform: scale(1.08);
+    background-color: #BFBFCC;
 }
 
 .reservation-link {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-decoration: none;
     text-align: center;
+    font-weight: normal;
     color: #2B2F3A;
 }
 

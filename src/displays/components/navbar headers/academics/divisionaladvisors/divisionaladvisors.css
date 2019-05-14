@@ -7,16 +7,15 @@
     margin-top: 40px;
     margin-bottom: 40px;
     overflow: hidden;
-    transition: max-height 0.6s ease-in-out, border-color 0.2s ease-in-out;
+    transition: max-height 0.6s ease-in-out, background-color 0.2s ease-in-out;
     margin-left: auto;
     margin-right: auto;
     color: #2B2F3A;
-    border: 1px solid #BFBFCC;
-    background-color: #BFBFCC;
+    border: 1px solid #2B2F3A;
 }
 
 .advisor-card:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .advisor-name {

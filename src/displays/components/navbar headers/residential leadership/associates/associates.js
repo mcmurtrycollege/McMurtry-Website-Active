@@ -19,42 +19,47 @@ class AssociateCard extends React.Component {
         let style = { overflow: 'hidden', transition: 'max-height 0.5s ease-in-out' }
         style.maxHeight = this.state.visible ? ('500px') : ('0')
         return (
-            <Box className='associate-card' width={0.9} onClick={this.handleClick}>
-                <div className='associate-display'>
-                    <h2>{this.props.name}</h2>
-                </div>
-                <div style={style}>
-                    <p><strong>Career/Profession: </strong>{this.props.career}</p>
-                    <p><strong>Bio: </strong>{this.props.bio}</p>
-                    <p><strong>Favorite Movie/TV Show: </strong>{this.props.movie_tv}</p>
-                    <p><strong>Hobbies: </strong>{this.props.hobbies}</p>
-                    <p><strong>Fun Fact: </strong>{this.props.fact}</p>
+            <Box width={1} onClick={this.handleClick}>
+                <div className='associate-card'>
+                    <div className='associate-display'>
+                        <h2 style={{fontWeight: 'normal'}}>{this.props.name}</h2>
+                    </div>
+                    <div style={style}>
+                        <p><strong>Career/Profession: </strong>{this.props.career}</p>
+                        <p><strong>Bio: </strong>{this.props.bio}</p>
+                        <p><strong>Favorite Movie/TV Show: </strong>{this.props.movie_tv}</p>
+                        <p><strong>Hobbies: </strong>{this.props.hobbies}</p>
+                        <p><strong>Fun Fact: </strong>{this.props.fact}</p>
+                    </div>
                 </div>
             </Box>
         )
     }
 }
 
-const Associates = () => (
-    <div className='associates-page'>
-        <Title title={'Associates'} width={240} smallText={false} />
-        <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' style={{marginTop: '5%'}}>
-            <Flex flexDirection='column' width={[1, 0.45]}>
+const Associates = () => {
+    let columns = [[], []];
+    for (let i = 0; i < associates.length; i++) {
+        columns[i % 2].push(
+            <AssociateCard key={`${associates[i].name}`} name={associates[i].name}
+                career={associates[i].career} bio={associates[i].bio} movie_tv={associates[i].movie_tv}
+                hobbies={associates[i].hobbies} fact={associates[i].fact} />
+        )
+    }
+    return (
+        <div className='associates-page'>
+            <Title title={'Associates'} width={240} smallText={false} />
+            <Flex justifyContent='center' flexDirection='row' flexWrap='wrap' style={{ marginTop: '3%' }}>
                 {
-                    associates.slice(0, associates.length / 2).map(({ name, career, bio, movie_tv, hobbies, fact }) => (
-                        <AssociateCard key={`${name}`} name={name} career={career} bio={bio} movie_tv={movie_tv} hobbies={hobbies} fact={fact} />
+                    columns.map(column => (
+                        <Flex flexDirection='column' width={[1, 0.4]}>
+                            {column}
+                        </Flex>
                     ))
                 }
             </Flex>
-            <Flex flexWrap='wrap' flexDirection='column' width={[1, 0.45]}>
-                {
-                    associates.slice(associates.length / 2, associates.length).map(({ name, career, bio, movie_tv, hobbies, fact }) => (
-                        <AssociateCard key={`${name}`} name={name} career={career} bio={bio} movie_tv={movie_tv} hobbies={hobbies} fact={fact} />
-                    ))
-                }
-            </Flex>
-        </Flex>
-    </div>
-)
+        </div>
+    )
+}
 
 export default Associates;

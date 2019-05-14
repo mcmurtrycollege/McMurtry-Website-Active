@@ -4,15 +4,14 @@
 
 .wellbeing-card-content {
     height: 120px;
-    background-color: #BFBFCC;
-    border: 1px solid #BFBFCC;
+    border: 1px solid #2B2F3A;
     color: #2B2F3A;
     padding: 15px;
-    transition: border-color 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .wellbeing-card-content:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .wellbeing-card-name {

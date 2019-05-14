@@ -4,17 +4,13 @@
 
 .position-card-content {
     color: #2B2F3A;
-    background-color: #BFBFCC;
-    border: 1px solid #BFBFCC;
-    /* background-color: none;
-    border: 1px solid #2B2F3A; */
+    border: 1px solid #2B2F3A;
     padding: 15px;
-    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .position-card-content:hover {
-    border-color: #2B2F3A;
-    /* background-color: #BFBFCC; */
+    background-color: #BFBFCC;
 }
 
 .position {

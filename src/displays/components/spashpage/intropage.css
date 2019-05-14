@@ -25,19 +25,21 @@
 }
 
 .quick-link {
-    background-color: #BFBFCC;
     color: #2B2F3A;
-    border: 1px solid #BFBFCC;
+    border: 1px solid #2B2F3A;
     padding: 15px;
     text-align: center;
     height: 130px;
-    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .quick-link:hover {
     cursor: pointer;
-    transform: scale(1.04);
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
+}
+
+.quick-link-name {
+    font-weight: normal;
 }
 
 @media screen and (min-width: 801px){
@@ -58,7 +60,7 @@
     }
 
     .quick-link {
-        height: 75px;
+        height: 80px;
         font-size: 0.6em;
     }
 

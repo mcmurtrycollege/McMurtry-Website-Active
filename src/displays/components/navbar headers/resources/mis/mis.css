@@ -59,15 +59,14 @@
 }
 
 .mis-contact {
-    border: 1px solid #BFBFCC;
+    border: 1px solid #2B2F3A;
     padding: 20px;
-    background-color: #BFBFCC;
     height: 250px;
-    transition: border-color 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .mis-contact:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .mis-name {

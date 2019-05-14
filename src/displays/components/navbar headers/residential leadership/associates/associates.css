@@ -9,19 +9,16 @@
 }
 
 .associate-card {
-    padding: 2%;
-    margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 4%;
+    margin: 2%;
     font-weight: normal;
     color: #2B2F3A;
-    background-color: #BFBFCC;
-    border: 1px solid #BFBFCC;
-    transition: border-color 0.2s ease-in-out;
+    border: 1px solid #2B2F3A;
+    transition: 0.2s ease-in-out;
 }
 
 .associate-card:hover {
-    border-color: #2B2F3A;
+    background-color: #BFBFCC;
 }
 
 .associate-display {
