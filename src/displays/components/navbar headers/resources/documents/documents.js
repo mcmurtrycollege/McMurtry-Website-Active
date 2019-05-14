@@ -3,11 +3,11 @@ import { Flex } from 'rebass';
 import Title from '../../../title';
 import './documents.css'
 
-import mcm_constitution from '../../../../static/mcm_constitution.pdf';
-import mcm_bylaws from '../../../../static/mcm_bylaws.pdf';
-import mcm_housing_bylaws from '../../../../static/mcm_housing_bylaws.pdf';
-import mcm_parking_bylaws from '../../../../static/mcm_parking_bylaws.pdf';
-import tax_exempt_form from '../../../../static/tax_exempt_form.pdf';
+import mcm_constitution from '../../../../static/documents/mcm_constitution.pdf';
+import mcm_bylaws from '../../../../static/documents/mcm_bylaws.pdf';
+import mcm_housing_bylaws from '../../../../static/documents/mcm_housing_bylaws.pdf';
+import mcm_parking_bylaws from '../../../../static/documents/mcm_parking_bylaws.pdf';
+import tax_exempt_form from '../../../../static/documents/tax_exempt_form.pdf';
 
 const documents = [
     {

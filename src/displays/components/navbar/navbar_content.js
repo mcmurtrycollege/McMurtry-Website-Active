@@ -98,6 +98,10 @@ const navbar_items = [
         to: "/documents/"
       },
       {
+        subheader: "Expense Forms",
+        to: "/expenseforms/"
+      },
+      {
         subheader: "McMurtry Resources",
         to: "/mcmresources/"
       },
