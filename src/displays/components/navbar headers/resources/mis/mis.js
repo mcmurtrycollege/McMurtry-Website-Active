@@ -76,7 +76,7 @@ const McmInovationSpace = () => (
                             <h2 className='mis-major'>Major: {major}</h2>
                             <h2 className='mis-college'>College: {college}</h2>
                             <a href={`mailto:${email}`} style={{ textDecoration: 'none' }}>
-                                <h2 className='mis-email'><img src="https://icon.now.sh/arrow/2B2F3A/14" alt="" />{' '}{email}</h2>
+                                <h2 className='mis-email'><img src="https://icon.now.sh/arrow/2B2F3A/10" alt="" />{' '}{email}</h2>
                             </a>
                             <h2 className='mis-askMeHeader'>Ask Me About:</h2>
                             <p className='mis-askMeAbout'>{askMeAbout}</p>

@@ -7,7 +7,7 @@ const WellbeingContactCard = props => (
         <div className="wellbeing-card-content">
             <h2 className="wellbeing-card-name">{props.name}</h2>
             <h3 className='wellbeing-card-phone'>
-                <img src="https://icon.now.sh/call/422a4C/20" alt="phone" />
+                <img src="https://icon.now.sh/call/422a4C/16" alt="phone" />
                 {' '}{props.phone}
             </h3>
             <h2 className='wellbeing-card-room'>

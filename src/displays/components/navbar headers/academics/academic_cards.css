@@ -3,14 +3,16 @@
 }
 
 .academic-card-content {
-    border: 1px solid #2B2F3A;
+    /* border: 1px solid #2B2F3A; */
+    border: 1px solid #BFBFCC;
     color: #2B2F3A;
     padding: 15px;
     transition: 0.2s ease-in-out;
 }
 
 .academic-card-content:hover {
-    background-color: #BFBFCC;
+    /* background-color: #BFBFCC; */
+    border-color: #2B2F3A;
 }
 
 .academic-position {
@@ -20,6 +22,7 @@
 
 .academic-card-name {
     font-size: 1.25em;
+    font-weight: normal;
 }
 
 .academic-contact {
@@ -30,6 +33,7 @@
 .academic-contact-email {
     font-size: 1em;
     transition: transform 0.3s ease-in-out;
+    font-weight: normal;
 }
 
 .academic-card-major {

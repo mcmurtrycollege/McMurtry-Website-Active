@@ -1,33 +1,11 @@
 {
     "internal": [
         {
-            "name":"Amenities",
-            "description": "The Amenities Committee is responsible for the improvement and upkeep of the public spaces (such as the lounges, TV room, game room, outside on 5th Floor, and hang-out area in the Commons) throughout McMurtry. Each member of our committee is in charge of managing one space - and we’re open to any suggestions! We focus on creating a pleasant atmosphere throughout the college with rooms and amenities all students can utilize. The Amenities Committee strives to implement long-lasting enhancements that can be enjoyed by Murts for years to come!",
-            "members":[
-                {
-                    "name":"Mac Carr",
-                    "year":"2022",
-                    "email":"@rice.edu"
-                }
-            ]
-        },
-        {
-            "name":"Enviromental",
-            "description": "The Environmental Committee exists at McMurtry to keep the college's effect on Earth in the minds of every Murt. This committee aims to help raise awareness about the little things that everyone can do to reduce the college's overall environmental impact.",
-            "members":[
-                {
-                    "name":"Sachi Paul",
-                    "year":"2021",
-                    "email":"sp57@rice.edu"
-                }
-            ]
-        },
-        {
             "name":"Website",
             "description": "The Website Committee works on developing and updating the McMurtry Website.",
             "members":[
                 {
-                    "name":"Nick Meisburger",
+                    "name":"Nicholas Meisburger",
                     "year":"2022",
                     "email":"ncm5@rice.edu"
                 },
@@ -50,6 +28,28 @@
                     "name": "Parth Parulekar",
                     "year": "2022",
                     "email": "psp3@rice.edu"
+                }
+            ]
+        },
+        {
+            "name":"Amenities",
+            "description": "The Amenities Committee is responsible for the improvement and upkeep of the public spaces (such as the lounges, TV room, game room, outside on 5th Floor, and hang-out area in the Commons) throughout McMurtry. Each member of our committee is in charge of managing one space - and we’re open to any suggestions! We focus on creating a pleasant atmosphere throughout the college with rooms and amenities all students can utilize. The Amenities Committee strives to implement long-lasting enhancements that can be enjoyed by Murts for years to come!",
+            "members":[
+                {
+                    "name":"Mac Carr",
+                    "year":"2022",
+                    "email":"@rice.edu"
+                }
+            ]
+        },
+        {
+            "name":"Enviromental",
+            "description": "The Environmental Committee exists at McMurtry to keep the college's effect on Earth in the minds of every Murt. This committee aims to help raise awareness about the little things that everyone can do to reduce the college's overall environmental impact.",
+            "members":[
+                {
+                    "name":"Sachi Paul",
+                    "year":"2021",
+                    "email":"sp57@rice.edu"
                 }
             ]
         },

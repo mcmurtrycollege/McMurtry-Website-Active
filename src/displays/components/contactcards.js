@@ -23,7 +23,7 @@ const Card = props => (
             {
                 props.email !== undefined ? (
                     <a href={`mailto:${props.email}`} className='contact'>
-                        <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/10" alt="email" />{' '}{props.email}</h3>
+                        <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/8" alt="email" />{' '}{props.email}</h3>
                     </a>
                 ) : (
                         null
