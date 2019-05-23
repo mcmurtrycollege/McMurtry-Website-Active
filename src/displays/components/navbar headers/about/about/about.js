@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, Image } from 'rebass';
 import './about.css';
 import { about, burtDeeDee } from './about.json';
-import mcm_commons from '../../../static/mcm_commons.jpg';
-import burt_deedee from '../../../static/burt_deedee.jpg';
+import mcm_commons from '../../../../static/mcm_commons.jpg';
+import burt_deedee from '../../../../static/burt_deedee.jpg';
 
 const About = () => (
     <div className='about-page'>

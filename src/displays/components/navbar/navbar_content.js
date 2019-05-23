@@ -1,8 +1,15 @@
 const navbar_items = [
   {
     header: "About",
-    headerTo: "/about/",
     dropDownChildren: [
+      {
+        subheader: "About",
+        to: "/about/"
+      },
+      {
+        subheader: "Financial Inclusivity",
+        to: "/financialinclusivity"
+      }
     ]
   },
   {

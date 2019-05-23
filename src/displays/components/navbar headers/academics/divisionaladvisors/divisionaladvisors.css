@@ -16,7 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     color: #2B2F3A;
-    border: 1px solid #2B2F3A;
+    border: 1px solid #BFBFCC;
 }
 
 .divisional-advisor-dropdown {
@@ -25,7 +25,7 @@
 }
 
 .advisor-card:hover {
-    background-color: #BFBFCC;
+    border-color: #2B2F3A;
 }
 
 .advisor-name {
@@ -38,7 +38,6 @@
     font-size: 1.25em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .advisor-bio {

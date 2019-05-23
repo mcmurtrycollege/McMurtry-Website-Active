@@ -8,7 +8,7 @@ import AlesePickering from '../../../../static/associates/AlesePickering.jpg';
 import DerethPhillips from '../../../../static/associates/DerethPhillips.jpeg';
 import LauraKabiri from '../../../../static/associates/LauraKabiri.jpg';
 import ZoeWool from '../../../../static/associates/ZoeWool.jpeg';
-import ElmerWhitehead from '../../../../static/associates/ElmerWhitehead.JPG';
+import ElmerWhitehead from '../../../../static/associates/ElmerWhitehead.jpg';
 import KurtKasper from '../../../../static/associates/KurtKasper.jpg';
 import OzgeGurcanli from '../../../../static/associates/OzgeGurcanli.jpeg';
 import KateAbad from '../../../../static/associates/KateAbad.jpg';

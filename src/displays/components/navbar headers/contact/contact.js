@@ -28,27 +28,31 @@ const contacts = [
 const Contact = () => (
     <div className="contact-page">
         <Title width={220} title="Contact" />
-        <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
-            {
-                contacts.map(({ position, name, email }) => (
-                    <Box width={[0.9, 0.3]} className='contact-card-shell' key={`${name}`}>
-                        <div className="contact-card">
-                            {
-                                position !== undefined ? (
-                                    <h2 className='contacts-position'>{position}</h2>
-                                ) : (
-                                        null
-                                    )
-                            }
-                            <h2 className='contacts-name'>{name}</h2>
-                            <a href={`mailto:${email}`} style={{textDecoration: 'none'}}>
-                                <h2 className='contacts-email'><img src="https://icon.now.sh/arrow/422a4C/14" alt="email" />{' '}{email}</h2>
+        <Box width={[1, 0.8, 0.7, 0.6]} ml='auto' mr='auto'>
+            <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
+                {
+                    contacts.map(({ position, name, email }) => (
+                        <Box width={300} className='contact-card-shell' key={`${name}`}>
+                            <a href={`mailto:${email}`} style={{ textDecoration: 'none' }}>
+
+                                <div className="contact-card">
+                                    {
+                                        position !== undefined ? (
+                                            <p className='contacts-position'>{position}</p>
+                                        ) : (
+                                                null
+                                            )
+                                    }
+                                    <h2 className='contacts-name'>{name}</h2>
+                                    <h2 className='contacts-email'><img src="https://icon.now.sh/arrow/422a4C/11" alt="email" />{' '}{email}</h2>
+                                </div>
                             </a>
-                        </div>
-                    </Box>
-                ))
-            }
-        </Flex>
+
+                        </Box>
+                    ))
+                }
+            </Flex>
+        </Box>
     </div>
 )
 

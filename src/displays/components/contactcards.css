@@ -2,7 +2,7 @@
     margin: 10px;
 }
 
-.position-card-content {
+.contact-card-content {
     color: #2B2F3A;
     /* border: 1px solid #2B2F3A; */
     /* border: 1px solid #DCDFE5; */
@@ -12,7 +12,7 @@
     transition: 0.2s ease-in-out;
 }
 
-.position-card-content:hover {
+.contact-card-content:hover {
     /* background-color: #BFBFCC; */
     border-color: #2B2F3A;
 }
@@ -27,7 +27,7 @@
     font-weight: normal;
 }
 
-.contact {
+.link {
     text-decoration: none;
     color: #2B2F3A;
     font-weight: normal;
@@ -40,22 +40,17 @@
 
 .contact-email {
     font-size: 0.8em;
-    transition: 0.3s ease-in-out;
     font-weight: normal;
+    transition: 0.3s ease-in-out;
 }
 
 .contact-email:hover {
-    transform: scale(1.1) translate(15px, 0px);
+    text-decoration: underline;
 }
 
 .contact-phone {
     font-size: 1em;
-    transition: transform 0.3s ease-in-out;
     font-weight: normal;
-}
-
-.contact-phone:hover {
-    transform: scale(1.1) translate(15px, 0px);
 }
 
 .major {

@@ -4,7 +4,7 @@ import './contactcards.css';
 
 const Card = props => (
     < Box className='position-card' width={props.width} >
-        <div className="position-card-content" style={{ height: props.height }}>
+        <div className="contact-card-content" style={{ height: props.height }}>
             {
                 props.position !== undefined ? (
                     <h2 className="position">{props.position}</h2>
@@ -22,7 +22,7 @@ const Card = props => (
             }
             {
                 props.email !== undefined ? (
-                    <a href={`mailto:${props.email}`} className='contact'>
+                    <a href={`mailto:${props.email}`} className='link'>
                         <h3 className="contact-email"><img src="https://icon.now.sh/arrow/422a4C/8" alt="Email: " />{' '}{props.email}</h3>
                     </a>
                 ) : (
@@ -67,8 +67,8 @@ const Cards = props => (
         <Flex flexWrap='wrap' flexDirection='row' justifyContent='center'>
             {
                 props.content.map(({ position, name, year, email, phone, major, subjects, room }) => (
-                    <Card height={props.height} width={props.width} key={name} position={position} 
-                    name={name} year={year} email={email} phone={phone} major={major} subjects={subjects} room={room} />
+                    <Card height={props.height} width={props.width} key={name} position={position}
+                        name={name} year={year} email={email} phone={phone} major={major} subjects={subjects} room={room} />
                 ))
             }
         </Flex>

@@ -3,7 +3,8 @@ import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './navbar/navbar';
 import Footer from './footer/footer';
 import Intro from './spashpage/intropage';
-import About from './navbar headers/about/about';
+import About from './navbar headers/about/about/about';
+import FinancialInclusivity from './navbar headers/about/financial_inclusivity/financial_Inclusivity';
 import Events from './navbar headers/events/events/events';
 import ArtEvents from './navbar headers/events/artevents/artevents';
 import McTeam from './navbar headers/residential leadership/mcteam/mcteam';
@@ -36,6 +37,7 @@ class MainRouter extends Component {
             <Switch>
               <Route exact path="/" component={Intro} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/financialinclusivity" component={FinancialInclusivity} />
               <Route exact path="/events" component={Events} />
               <Route exact path="/artevents" component={ArtEvents} />
               <Route exact path="/mcteam" component={McTeam} />
