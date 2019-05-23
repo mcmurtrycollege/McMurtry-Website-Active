@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 import Title from '../../title';
-import WellbeingCards from './wellbeing_contact_card';
+import ContactCards from '../../contactcards';
 import './wellbeing.css';
 import { strive_liaisons } from './wellbeing.json';
 
@@ -12,7 +12,7 @@ const StriveLiaisons = () => (
             {strive_liaisons.description}
         </Box>
         <div>
-            <WellbeingCards content={strive_liaisons.members} />
+            <ContactCards content={strive_liaisons.members} width={200} />
         </div>
     </div>
 )

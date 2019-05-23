@@ -57,3 +57,18 @@
 .contact-phone:hover {
     transform: scale(1.1) translate(15px, 0px);
 }
+
+.major {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.subjects {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.room {
+    font-weight: normal;
+    font-size: 1em;
+}

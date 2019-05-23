@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 import Title from '../../../title';
-import AcademicCards from '../academic_contact_cards';
+import ContactCards from '../../../contactcards';
 import { paas_description, head_paas, o_week_paas, year_long_paas } from './paas.json';
 import './paas.css';
 
@@ -15,19 +15,19 @@ const PAAs = () => (
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>Head PAAs</h1>
             </Box>
-            <AcademicCards content={head_paas} width={300} height={200} />
+            <ContactCards content={head_paas} width={280} height={180} />
         </div>
         <div>
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>O-Week Paas</h1>
             </Box>
-            <AcademicCards content={o_week_paas} width={340} height={200} />
+            <ContactCards content={o_week_paas} width={320} height={180} />
         </div>
         <div>
             <Box width={320} ml='auto' mr='auto'>
                 <h1 className='paas-title'>Year Long PAAs</h1>
             </Box>
-            <AcademicCards content={year_long_paas} width={300} height={200} />
+            <ContactCards content={year_long_paas} width={300} height={180} />
         </div>
     </div>
 )

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 import Title from '../../../title';
-import AcademicCards from '../academic_contact_cards';
+import ContactCards from '../../../contactcards';
 import {fellows_description, fellows } from './fellows.json';
 import './fellows.css';
 
@@ -12,7 +12,7 @@ const AcademicFellows = () => (
             {fellows_description}
         </Box>
         <div style={{marginTop: '2%'}}>
-            <AcademicCards content={fellows} height={200} width={300} />
+            <ContactCards content={fellows} width={280} height={180} />
         </div>
     </div>
 )

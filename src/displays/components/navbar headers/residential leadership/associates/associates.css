@@ -13,14 +13,20 @@
     margin: 2%;
     font-weight: normal;
     color: #2B2F3A;
-    border: 1px solid #2B2F3A;
+    border: 1px solid #BFBFCC;
     transition: 0.2s ease-in-out;
 }
 
 .associate-card:hover {
-    background-color: #BFBFCC;
+    border-color: #2B2F3A;
+    /* background-color: #BFBFCC; */
 }
 
 .associate-display {
     text-align: center;
+}
+
+.associate-dropdown, .associate-image-dropdown {
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
 }

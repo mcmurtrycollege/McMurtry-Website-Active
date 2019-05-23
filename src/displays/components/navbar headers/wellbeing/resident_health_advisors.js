@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 import Title from '../../title';
-import WellbeingCards from './wellbeing_contact_card';
+import ContactCards from '../../contactcards';
 import './wellbeing.css';
 import { RHAs } from './wellbeing.json';
 
@@ -12,7 +12,7 @@ const ResidentHealthAdvisors = () => (
             {RHAs.description}
         </Box>
         <div>
-            <WellbeingCards content={RHAs.members} />
+            <ContactCards content={RHAs.members} width={250} />
         </div>
     </div>
 )

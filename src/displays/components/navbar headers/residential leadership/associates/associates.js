@@ -7,27 +7,34 @@ import associates from './associates_content';
 class AssociateCard extends React.Component {
     constructor(props) {
         super(props)
-        this.state = { visible: false }
+        this.state = { contentVisible: false }
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick() {
-        this.setState({ visible: !this.state.visible })
+        this.setState({ contentVisible: !this.state.contentVisible })
     }
 
     render() {
-        let style = { overflow: 'hidden', transition: 'max-height 0.5s ease-in-out' }
-        style.maxHeight = this.state.visible ? ('500px') : ('0')
+        let cardStyle = {}
+        let dropdownStyle = {}
+        let dropdownImageStyle = {}
+        cardStyle.backgroundColor = this.state.contentVisible ? ('#BFBFCC') : ('#DCDFE5')
+        dropdownStyle.maxHeight = this.state.contentVisible ? ('500px') : ('0')
+        dropdownImageStyle.maxHeight = this.state.contentVisible ? ('0') : ('300px')
+
         return (
             <Box width={1} onClick={this.handleClick}>
-                <div className='associate-card'>
-                    <Box ml='auto' mr='auto' width={this.props.imageWidth}>
+                <div className='associate-card' style={cardStyle}>
+                    <div className='associate-image-dropdown' style={dropdownImageStyle}>
+                        <Box ml='auto' mr='auto' width={this.props.imageWidth}>
                         <Image src={this.props.image} alt='' />
                     </Box>
+                    </div>
                     <div className='associate-display'>
                         <h2 style={{ fontWeight: 'normal' }}>{this.props.name}</h2>
                     </div>
-                    <div style={style}>
+                    <div style={dropdownStyle} className='associate-dropdown'>
                         <p><strong>Career/Profession: </strong>{this.props.career}</p>
                         <p><strong>Bio: </strong>{this.props.bio}</p>
                         <p><strong>Favorite Movie/TV Show: </strong>{this.props.movie_tv}</p>

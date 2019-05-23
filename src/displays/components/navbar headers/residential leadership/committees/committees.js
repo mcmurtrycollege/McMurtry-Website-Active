@@ -70,10 +70,8 @@ export default class Committees extends React.Component {
                             divisions[this.state.current].map((committee) => (
                                 <Slide index={divisions[this.state.current].indexOf(committee)} key={`${committee.name}`} >
                                     <div>
-                                        <Box width={[1, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
-                                            <Box width={320} ml='auto' mr='auto'>
-                                                <h1 className='division-title'>{committee.name}</h1>
-                                            </Box>
+                                        <Box width={[0.9, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='committee-description'>
+                                            <h1 className='division-title'>{committee.name}</h1>
                                             {committee.description}
                                         </Box>
                                         <Box width={165} className='members-title' ml='auto' mr='auto'>
