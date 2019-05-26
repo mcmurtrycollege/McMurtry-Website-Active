@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './navbar/navbar';
 import Footer from './footer/footer';
-import Intro from './spashpage/intropage';
+import Intro from './splashpage/intropage';
 import About from './navbar headers/about/about/about';
 import FinancialInclusivity from './navbar headers/about/financial_inclusivity/financial_Inclusivity';
 import Events from './navbar headers/events/events/events';
